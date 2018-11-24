@@ -1,0 +1,132 @@
+2018-02-08T04:06:16+00:00 CRITICAL Uncaught Error: Call to undefined function request_filesystem_credentials() in /Users/e175730/dev/wp_ph_crm/wp-admin/includes/class-wp-upgrader-skin.php:93
+Stack trace:
+#0 /Users/e175730/dev/wp_ph_crm/wp-admin/includes/class-automatic-upgrader-skin.php(47): WP_Upgrader_Skin->request_filesystem_credentials(false, '/Users/e175730/...', true)
+#1 /Users/e175730/dev/wp_ph_crm/wp-admin/includes/class-wp-automatic-updater.php(144): Automatic_Upgrader_Skin->request_filesystem_credentials(false, '/Users/e175730/...', true)
+#2 /Users/e175730/dev/wp_ph_crm/wp-admin/includes/update.php(85): WP_Automatic_Updater->should_update('core', Object(stdClass), '/Users/e175730/...')
+#3 /Users/e175730/dev/wp_ph_crm/wp-includes/update.php(215): find_core_auto_update()
+#4 /Users/e175730/dev/wp_ph_crm/wp-includes/class-wp-hook.php(286): wp_version_check()
+#5 /Users/e175730/dev/wp_ph_crm/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#6 /Users/e175730/dev/wp_ph_crm/wp-includes/plugin.php(515): WP_Hook->do_action(
+
+2018-02-08T17:45:33+00:00 CRITICAL Uncaught Error: Call to undefined function request_filesystem_credentials() in /Users/e175730/dev/wp_ph_crm/wp-admin/includes/class-wp-upgrader-skin.php:93
+Stack trace:
+#0 /Users/e175730/dev/wp_ph_crm/wp-admin/includes/class-automatic-upgrader-skin.php(47): WP_Upgrader_Skin->request_filesystem_credentials(false, '/Users/e175730/...', true)
+#1 /Users/e175730/dev/wp_ph_crm/wp-admin/includes/class-wp-automatic-updater.php(144): Automatic_Upgrader_Skin->request_filesystem_credentials(false, '/Users/e175730/...', true)
+#2 /Users/e175730/dev/wp_ph_crm/wp-admin/includes/update.php(85): WP_Automatic_Updater->should_update('core', Object(stdClass), '/Users/e175730/...')
+#3 /Users/e175730/dev/wp_ph_crm/wp-includes/update.php(215): find_core_auto_update()
+#4 /Users/e175730/dev/wp_ph_crm/wp-includes/class-wp-hook.php(286): wp_version_check()
+#5 /Users/e175730/dev/wp_ph_crm/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#6 /Users/e175730/dev/wp_ph_crm/wp-includes/plugin.php(515): WP_Hook->do_action(
+
+2018-02-09T00:07:52+00:00 CRITICAL Uncaught Error: Call to undefined function get_home_path() in /Users/e175730/dev/wp_ph_crm/crm/' . echo home_url( '/' ) . 'wp-content/themes/uncompromising/header.php:113
+Stack trace:
+#0 /Users/e175730/dev/wp_ph_crm/crm/wp-includes/template.php(688): require_once()
+#1 /Users/e175730/dev/wp_ph_crm/crm/wp-includes/template.php(647): load_template('/Users/e175730/...', true)
+#2 /Users/e175730/dev/wp_ph_crm/crm/wp-includes/general-template.php(41): locate_template(Array, true)
+#3 /Users/e175730/dev/wp_ph_crm/crm/' . echo home_url( '/' ) . 'wp-content/themes/uncompromising/page-dashboard.php(9): get_header()
+#4 /Users/e175730/dev/wp_ph_crm/crm/wp-includes/template-loader.php(74): include('/Users/e175730/...')
+#5 /Users/e175730/dev/wp_ph_crm/crm/wp-blog-header.php(19): require_once('/Users/e175730/...')
+#6 /Users/e175730/dev/wp_ph_crm/crm/index.php(17): require('/Users/e175730/...')
+#7 {main}
+  thrown
+
+2018-02-09T00:14:43+00:00 CRITICAL Uncaught Error: Call to undefined function get_home_path() in /Users/e175730/dev/wp_ph_crm/crm/' . echo home_url( '/' ) . 'wp-content/themes/uncompromising/header.php:113
+Stack trace:
+#0 /Users/e175730/dev/wp_ph_crm/crm/wp-includes/template.php(688): require_once()
+#1 /Users/e175730/dev/wp_ph_crm/crm/wp-includes/template.php(647): load_template('/Users/e175730/...', true)
+#2 /Users/e175730/dev/wp_ph_crm/crm/wp-includes/general-template.php(41): locate_template(Array, true)
+#3 /Users/e175730/dev/wp_ph_crm/crm/' . echo home_url( '/' ) . 'wp-content/themes/uncompromising/page-dashboard.php(9): get_header()
+#4 /Users/e175730/dev/wp_ph_crm/crm/wp-includes/template-loader.php(74): include('/Users/e175730/...')
+#5 /Users/e175730/dev/wp_ph_crm/crm/wp-blog-header.php(19): require_once('/Users/e175730/...')
+#6 /Users/e175730/dev/wp_ph_crm/crm/index.php(17): require('/Users/e175730/...')
+#7 {main}
+  thrown
+
+2018-02-09T05:29:07+00:00 CRITICAL Uncaught Error: Call to undefined function request_filesystem_credentials() in /Users/e175730/dev/wp_ph_crm/wp-admin/includes/class-wp-upgrader-skin.php:93
+Stack trace:
+#0 /Users/e175730/dev/wp_ph_crm/wp-admin/includes/class-automatic-upgrader-skin.php(47): WP_Upgrader_Skin->request_filesystem_credentials(false, '/Users/e175730/...', true)
+#1 /Users/e175730/dev/wp_ph_crm/wp-admin/includes/class-wp-automatic-updater.php(144): Automatic_Upgrader_Skin->request_filesystem_credentials(false, '/Users/e175730/...', true)
+#2 /Users/e175730/dev/wp_ph_crm/wp-admin/includes/update.php(85): WP_Automatic_Updater->should_update('core', Object(stdClass), '/Users/e175730/...')
+#3 /Users/e175730/dev/wp_ph_crm/wp-includes/update.php(215): find_core_auto_update()
+#4 /Users/e175730/dev/wp_ph_crm/wp-includes/class-wp-hook.php(286): wp_version_check()
+#5 /Users/e175730/dev/wp_ph_crm/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#6 /Users/e175730/dev/wp_ph_crm/wp-includes/plugin.php(515): WP_Hook->do_action(
+
+2018-02-09T15:31:16+00:00 CRITICAL Uncaught Error: Call to undefined function request_filesystem_credentials() in /Users/e175730/dev/wp_ph_crm/wp-admin/includes/class-wp-upgrader-skin.php:93
+Stack trace:
+#0 /Users/e175730/dev/wp_ph_crm/wp-admin/includes/class-automatic-upgrader-skin.php(47): WP_Upgrader_Skin->request_filesystem_credentials(false, '/Users/e175730/...', true)
+#1 /Users/e175730/dev/wp_ph_crm/wp-admin/includes/class-wp-automatic-updater.php(144): Automatic_Upgrader_Skin->request_filesystem_credentials(false, '/Users/e175730/...', true)
+#2 /Users/e175730/dev/wp_ph_crm/wp-admin/includes/update.php(85): WP_Automatic_Updater->should_update('core', Object(stdClass), '/Users/e175730/...')
+#3 /Users/e175730/dev/wp_ph_crm/wp-includes/update.php(215): find_core_auto_update()
+#4 /Users/e175730/dev/wp_ph_crm/wp-includes/class-wp-hook.php(286): wp_version_check()
+#5 /Users/e175730/dev/wp_ph_crm/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#6 /Users/e175730/dev/wp_ph_crm/wp-includes/plugin.php(515): WP_Hook->do_action(
+
+2018-02-10T04:27:01+00:00 CRITICAL Uncaught Error: Call to undefined function request_filesystem_credentials() in /Users/e175730/dev/wp_ph_crm/wp-admin/includes/class-wp-upgrader-skin.php:93
+Stack trace:
+#0 /Users/e175730/dev/wp_ph_crm/wp-admin/includes/class-automatic-upgrader-skin.php(47): WP_Upgrader_Skin->request_filesystem_credentials(false, '/Users/e175730/...', true)
+#1 /Users/e175730/dev/wp_ph_crm/wp-admin/includes/class-wp-automatic-updater.php(144): Automatic_Upgrader_Skin->request_filesystem_credentials(false, '/Users/e175730/...', true)
+#2 /Users/e175730/dev/wp_ph_crm/wp-admin/includes/update.php(85): WP_Automatic_Updater->should_update('core', Object(stdClass), '/Users/e175730/...')
+#3 /Users/e175730/dev/wp_ph_crm/wp-includes/update.php(215): find_core_auto_update()
+#4 /Users/e175730/dev/wp_ph_crm/wp-includes/class-wp-hook.php(286): wp_version_check()
+#5 /Users/e175730/dev/wp_ph_crm/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#6 /Users/e175730/dev/wp_ph_crm/wp-includes/plugin.php(515): WP_Hook->do_action(
+
+2018-02-10T07:03:51+00:00 CRITICAL Uncaught Error: Call to undefined function mysq_num_rows() in /Users/e175730/dev/wp_ph_crm/wp-content/themes/uncompromising/includes/user-reminders.php:13
+Stack trace:
+#0 /Users/e175730/dev/wp_ph_crm/wp-content/themes/uncompromising/page-dashboard.php(24): include()
+#1 /Users/e175730/dev/wp_ph_crm/wp-includes/template-loader.php(74): include('/Users/e175730/...')
+#2 /Users/e175730/dev/wp_ph_crm/wp-blog-header.php(19): require_once('/Users/e175730/...')
+#3 /Users/e175730/dev/wp_ph_crm/index.php(17): require('/Users/e175730/...')
+#4 {main}
+  thrown
+
+2018-02-10T07:04:02+00:00 CRITICAL Uncaught Error: Call to undefined function mysql_num_rows() in /Users/e175730/dev/wp_ph_crm/wp-content/themes/uncompromising/includes/user-reminders.php:13
+Stack trace:
+#0 /Users/e175730/dev/wp_ph_crm/wp-content/themes/uncompromising/page-dashboard.php(24): include()
+#1 /Users/e175730/dev/wp_ph_crm/wp-includes/template-loader.php(74): include('/Users/e175730/...')
+#2 /Users/e175730/dev/wp_ph_crm/wp-blog-header.php(19): require_once('/Users/e175730/...')
+#3 /Users/e175730/dev/wp_ph_crm/index.php(17): require('/Users/e175730/...')
+#4 {main}
+  thrown
+
+2018-02-10T15:32:49+00:00 CRITICAL Uncaught Error: Call to undefined function request_filesystem_credentials() in /Users/e175730/dev/wp_ph_crm/wp-admin/includes/class-wp-upgrader-skin.php:93
+Stack trace:
+#0 /Users/e175730/dev/wp_ph_crm/wp-admin/includes/class-automatic-upgrader-skin.php(47): WP_Upgrader_Skin->request_filesystem_credentials(false, '/Users/e175730/...', true)
+#1 /Users/e175730/dev/wp_ph_crm/wp-admin/includes/class-wp-automatic-updater.php(144): Automatic_Upgrader_Skin->request_filesystem_credentials(false, '/Users/e175730/...', true)
+#2 /Users/e175730/dev/wp_ph_crm/wp-admin/includes/update.php(85): WP_Automatic_Updater->should_update('core', Object(stdClass), '/Users/e175730/...')
+#3 /Users/e175730/dev/wp_ph_crm/wp-includes/update.php(215): find_core_auto_update()
+#4 /Users/e175730/dev/wp_ph_crm/wp-includes/class-wp-hook.php(286): wp_version_check()
+#5 /Users/e175730/dev/wp_ph_crm/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#6 /Users/e175730/dev/wp_ph_crm/wp-includes/plugin.php(515): WP_Hook->do_action(
+
+2018-02-11T15:09:48+00:00 CRITICAL Uncaught Error: Call to undefined function request_filesystem_credentials() in /Users/e175730/dev/wp_ph_crm/wp-admin/includes/class-wp-upgrader-skin.php:93
+Stack trace:
+#0 /Users/e175730/dev/wp_ph_crm/wp-admin/includes/class-automatic-upgrader-skin.php(47): WP_Upgrader_Skin->request_filesystem_credentials(false, '/Users/e175730/...', true)
+#1 /Users/e175730/dev/wp_ph_crm/wp-admin/includes/class-wp-automatic-updater.php(144): Automatic_Upgrader_Skin->request_filesystem_credentials(false, '/Users/e175730/...', true)
+#2 /Users/e175730/dev/wp_ph_crm/wp-admin/includes/update.php(85): WP_Automatic_Updater->should_update('core', Object(stdClass), '/Users/e175730/...')
+#3 /Users/e175730/dev/wp_ph_crm/wp-includes/update.php(215): find_core_auto_update()
+#4 /Users/e175730/dev/wp_ph_crm/wp-includes/class-wp-hook.php(286): wp_version_check()
+#5 /Users/e175730/dev/wp_ph_crm/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#6 /Users/e175730/dev/wp_ph_crm/wp-includes/plugin.php(515): WP_Hook->do_action(
+
+2018-02-11T15:52:49+00:00 CRITICAL Uncaught Error: Call to undefined function request_filesystem_credentials() in /Users/e175730/dev/wp_ph_crm/wp-admin/includes/class-wp-upgrader-skin.php:93
+Stack trace:
+#0 /Users/e175730/dev/wp_ph_crm/wp-admin/includes/class-automatic-upgrader-skin.php(47): WP_Upgrader_Skin->request_filesystem_credentials(false, '/Users/e175730/...', true)
+#1 /Users/e175730/dev/wp_ph_crm/wp-admin/includes/class-wp-automatic-updater.php(144): Automatic_Upgrader_Skin->request_filesystem_credentials(false, '/Users/e175730/...', true)
+#2 /Users/e175730/dev/wp_ph_crm/wp-admin/includes/update.php(85): WP_Automatic_Updater->should_update('core', Object(stdClass), '/Users/e175730/...')
+#3 /Users/e175730/dev/wp_ph_crm/wp-includes/update.php(215): find_core_auto_update()
+#4 /Users/e175730/dev/wp_ph_crm/wp-includes/class-wp-hook.php(286): wp_version_check()
+#5 /Users/e175730/dev/wp_ph_crm/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#6 /Users/e175730/dev/wp_ph_crm/wp-includes/plugin.php(515): WP_Hook->do_action(
+
+2018-02-12T05:19:07+00:00 CRITICAL Uncaught Error: Call to undefined function request_filesystem_credentials() in /Users/e175730/dev/wp_ph_crm/wp-admin/includes/class-wp-upgrader-skin.php:93
+Stack trace:
+#0 /Users/e175730/dev/wp_ph_crm/wp-admin/includes/class-automatic-upgrader-skin.php(47): WP_Upgrader_Skin->request_filesystem_credentials(false, '/Users/e175730/...', true)
+#1 /Users/e175730/dev/wp_ph_crm/wp-admin/includes/class-wp-automatic-updater.php(144): Automatic_Upgrader_Skin->request_filesystem_credentials(false, '/Users/e175730/...', true)
+#2 /Users/e175730/dev/wp_ph_crm/wp-admin/includes/update.php(85): WP_Automatic_Updater->should_update('core', Object(stdClass), '/Users/e175730/...')
+#3 /Users/e175730/dev/wp_ph_crm/wp-includes/update.php(215): find_core_auto_update()
+#4 /Users/e175730/dev/wp_ph_crm/wp-includes/class-wp-hook.php(286): wp_version_check()
+#5 /Users/e175730/dev/wp_ph_crm/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#6 /Users/e175730/dev/wp_ph_crm/wp-includes/plugin.php(515): WP_Hook->do_action(
+

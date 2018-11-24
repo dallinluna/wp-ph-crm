@@ -1,0 +1,76 @@
+// Bootstrap Extension
+
+.usd-breadcrumb {
+  background-color: $breadcrumb-bg;
+  padding: 1.25rem 0 1.25rem 0;
+  z-index: 1;
+
+  .breadcrumb-page-title{
+    color: $gray-dark;
+    font-size: 1.5rem;
+    padding-right: 20px;
+    border-right: 1px solid $gray-400;
+    margin-bottom: 0;
+  }
+
+  .breadcrumb-list{
+    padding-left:20px;
+    line-height: 2rem;
+    margin-bottom: 0;
+
+    .breadcrumb-item, span {
+      float: left;
+      max-width: 300px;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+      overflow: hidden;
+      color: $breadcrumb-item-color;
+  
+      + span::before {
+        display: inline-block; // Suppress underlining of the separator in modern browsers
+        padding-right: $breadcrumb-item-padding;
+        padding-left: $breadcrumb-item-padding;
+        color: $breadcrumb-divider-color;
+        content: "#{$breadcrumb-divider}";
+      }  
+    }
+  }
+
+}
+
+.usd-breadcrumb {
+  position: relative;
+  margin-bottom: 0;
+}
+
+@include media-breakpoint-down(md) {
+
+  .usd-breadcrumb{
+    padding: 0.9rem 0 1.25rem 0;
+
+    .breadcrumb-page-title{
+      border-right: none;
+      order: 2;
+    }
+
+    .breadcrumb-list{
+      display: block;
+      width: 100%;
+      padding-left: 0;
+
+      .breadcrumb-item{
+        display: none;
+
+        &:nth-last-child(2){
+          display: list-item;
+        }
+
+        &::before{
+          content: $breadcrumb-divider-mobile;
+          padding-right: 0.25rem;
+          padding-left: 0;
+        }
+      }
+    }
+  }
+}

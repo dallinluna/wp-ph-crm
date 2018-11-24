@@ -1,0 +1,50 @@
+// Custom SCSS
+
+pre, code{
+	direction: ltr;
+	text-align: left;
+}
+pre {border: solid 1px $gray;
+	font-size: 0.75rem; 
+ 	color:$brand-danger; 
+	padding:0.5rem; 
+	background: $gray-lightest}
+code {
+	font-size:0.75rem; 
+	color: $brand-danger;
+	font-family: monospace;
+}
+
+.contact-page{
+	.breadcrumb-list .breadcrumb-item{
+		color: $light;
+
+		&::before{
+			color: $light;
+		}
+
+		a{
+			color: $light;
+		}
+	}
+}
+
+#usdTable2_wrapper.container-fluid{
+	padding: 0;
+
+	.row:first-child{
+		padding: 1rem;
+	}
+}
+
+@include media-breakpoint-down(md) {
+	.usd-demo{
+
+		.usd-sidebar{
+
+			.sidebar-nav, .nav{
+				min-height: 500px !important;
+			}
+		}
+	}
+}

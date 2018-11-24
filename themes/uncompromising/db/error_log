@@ -1,0 +1,2 @@
+[10-Jan-2014 01:26:33] WordPress database error Table 'moonshin_wor2.sih_associations' doesn't exist for query INSERT INTO `sih_associations` (`contact_ID`,`ID`,`firstname`,`lastname`,`relationship`,`birth_month`,`birth_day`,`birth_year`,`notes`) VALUES (11,3,'Jillyn','Moon','Spouse',6,25,1953,'')
+[10-Jan-2014 07:03:33] WordPress database error Table 'moonshin_wor2.sih_reminder' doesn't exist for query INSERT INTO `sih_reminder` (`ID`,`contact_ID`,`date`,`reminder_desc`,`reminder_type`) VALUES (3,11,'2014-01-11','test','To Do Reminder')
